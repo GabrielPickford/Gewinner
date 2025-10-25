@@ -4,11 +4,11 @@ import Link from 'next/link'
 
 const Interests = () => {
   return (
-    <div className='pt-5'>
+    <div className='pt-5 w-full'>
       <section className='flex'>
         <h1 className='text-center uppercase px-6 py-3 font-work-sans font-extrabold text-black sm:text-[36px] sm:leading-[64px] text-[24px] leading-[46px] w-full my-5'>Productos más vendidos</h1>
       </section>
-      <section className='w-full  px-20 pb-10 grid md:grid-cols-4 sm:grid-cols-2 gap-4'>
+      <section className='card_grid '>
         <Card
           id='56419'
           image="/assets/vulcanMotosierra.jpg"

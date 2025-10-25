@@ -17,7 +17,7 @@ export default function CatalogoPage() {
       const matchSearch =
         searchTerm.trim() === '' ||
         product.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        product.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        product.description?.toLowerCase().includes(searchTerm.toLowerCase()) ||
         product.labels?.some(label =>
           label.toLowerCase().includes(searchTerm.toLowerCase())
         );
@@ -30,21 +30,21 @@ export default function CatalogoPage() {
   }, [searchTerm, selectedCategory, selectedBrand]);
 
   return (
-    <div className="p-4">
+    <div className=" z-40">
       {/* Filtros */}
-      <div className="flex flex-wrap gap-4 mb-6">
+      <div className="sticky z-40 top-16 bg-white border-b h-16 w-full flex flex-wrap gap-4 items-center">
         <input
           type="text"
           placeholder="Buscar..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="border px-2 py-1 rounded"
+          className="border px-3 py-2 rounded w-full sm:w-auto"
         />
 
         <select
           value={selectedCategory}
           onChange={(e) => setSelectedCategory(e.target.value)}
-          className="border px-2 py-1 rounded"
+          className="border px-3 py-2 rounded w-full sm:w-auto"
         >
           <option value="">Todas las categorías</option>
           {categories.map((category) => (
@@ -55,7 +55,7 @@ export default function CatalogoPage() {
         <select
           value={selectedBrand}
           onChange={(e) => setSelectedBrand(e.target.value)}
-          className="border px-2 py-1 rounded"
+          className="border px-3 py-2 rounded w-full sm:w-auto"
         >
           <option value="">Todas las marcas</option>
           {brands.map((brand) => (
@@ -64,8 +64,9 @@ export default function CatalogoPage() {
         </select>
       </div>
 
-      {/* Productos */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+
+
+      <div className="card_grid mt-6 sm:mt-8 md:mt-10 lg:mt-[120px]">
         {filteredProducts.map((product) => (
           <Card
             key={product.id}
@@ -73,6 +74,7 @@ export default function CatalogoPage() {
             image={product.image}
             title={product.title}
             text={product.description}
+            precio={product.precio}
           />
         ))}
       </div>

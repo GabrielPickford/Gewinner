@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar"; // ✅ Importamos el Navbar
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Gewinner",
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body>
         <Navbar /> {/* ✅ Navbar visible en todas las páginas */}
         {children}
+        <Footer/>
       </body>
     </html>
   );
