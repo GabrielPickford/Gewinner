@@ -11,17 +11,6 @@ export interface Product {
 }
 
 export const products: Product[] = [
-  //0
-  {
-    id: '',
-    title: '',
-    description: '',
-    image: '/assets/vulcanMotosierra.jpg',
-    category: '',
-    brand: '',
-    labels: ['', ''],
-    precio: '0.00$',
-  },
   //1 Motobomba
   {
     id: 'VMB652S',
