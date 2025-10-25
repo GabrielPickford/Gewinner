@@ -1,9 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { FaInstagram } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
-
 const Header = () => {
     return (
         <div className='relative w-full h-screen overflow-hidden -mt-7  '>
