@@ -5,11 +5,11 @@ const AboutMe = () => {
     return (
         <section className='w-full h-auto pb-10 grid grid-cols-1 md:grid-cols-2 '>
             <Brandcard
-                image="/assets/vulcanLogo.jpg"
+                image="/assets/logoVulcan.jpg"
                 color="bg-secondary"
             />
             <Brandcard
-                image="/assets/hyundaiLogo.jpg"
+                image="/assets/logoHyundai.jpg"
                 color="bg-tertiary"
             />
         </section>
