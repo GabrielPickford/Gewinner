@@ -9,7 +9,7 @@ type CardProps = {
 
 const Card = ({ image, color }: CardProps) => {
     return (
-        <Link 
+        <Link
           href="/catalogo" 
           className={`flex items-center justify-center w-full h-full p-4 ${color} group`}>
             <Image
@@ -17,7 +17,7 @@ const Card = ({ image, color }: CardProps) => {
                 alt="Gewinner"
                 width={300}
                 height={200}
-                className="transition-transform duration-300 group-hover:scale-90"
+                className="transition-transform duration-300 group-hover:scale-110"
             />
         </Link>
     )
