@@ -27,12 +27,14 @@ export default function ProductCarousel({ images, title }: ProductCarouselProps)
 
   const prevImage = () =>
     changeImage(currentIndex === 0 ? images.length - 1 : currentIndex - 1, 'left');
+
   const nextImage = () =>
     changeImage(currentIndex === images.length - 1 ? 0 : currentIndex + 1, 'right');
+
   const selectImage = (index: number) =>
     changeImage(index, index > currentIndex ? 'right' : 'left');
 
-  // 👉 Swipe táctil
+  // Swipe táctil
   const handleTouchStart = (e: React.TouchEvent) => {
     startXRef.current = e.touches[0].clientX;
   };
@@ -41,11 +43,19 @@ export default function ProductCarousel({ images, title }: ProductCarouselProps)
     if (startXRef.current === null) return;
     const endX = e.changedTouches[0].clientX;
     const diff = startXRef.current - endX;
-    if (Math.abs(diff) > 50) diff > 0 ? nextImage() : prevImage();
+
+    if (Math.abs(diff) > 50) {
+      if (diff > 0) {
+        nextImage();
+      } else {
+        prevImage();
+      }
+    }
+
     startXRef.current = null;
   };
 
-  // 👉 Arrastre con mouse
+  // Arrastre con mouse
   const handleMouseDown = (e: React.MouseEvent) => {
     startXRef.current = e.clientX;
   };
@@ -54,7 +64,15 @@ export default function ProductCarousel({ images, title }: ProductCarouselProps)
     if (startXRef.current === null) return;
     const endX = e.clientX;
     const diff = startXRef.current - endX;
-    if (Math.abs(diff) > 50) diff > 0 ? nextImage() : prevImage();
+
+    if (Math.abs(diff) > 50) {
+      if (diff > 0) {
+        nextImage();
+      } else {
+        prevImage();
+      }
+    }
+
     startXRef.current = null;
   };
 
@@ -79,7 +97,7 @@ export default function ProductCarousel({ images, title }: ProductCarouselProps)
             alt={title}
             width={3000}
             height={3000}
-            className={`absolute top-0 left-0 object-contain w-full h-full transition-transform duration-50  ${
+            className={`absolute top-0 left-0 object-contain w-full h-full transition-transform duration-50 ${
               direction === 'left'
                 ? 'translate-x-full opacity-0'
                 : direction === 'right'
@@ -96,7 +114,7 @@ export default function ProductCarousel({ images, title }: ProductCarouselProps)
               alt={title}
               width={3000}
               height={3000}
-              className={`absolute top-0 left-0 object-contain w-full h-full transition-transform duration-50  ${
+              className={`absolute top-0 left-0 object-contain w-full h-full transition-transform duration-50 ${
                 direction === 'right'
                   ? 'translate-x-0 opacity-100 animate-slide-in-right'
                   : 'translate-x-0 opacity-100 animate-slide-in-left'
