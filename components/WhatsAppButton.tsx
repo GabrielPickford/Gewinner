@@ -32,7 +32,7 @@ const WhatsAppButton = ({
   return (
     <button
       onClick={handleClick}
-      className="inline-flex items-center justify-center bg-green hover:bg-green-700 text-white font-medium py-3 px-6 rounded-full transition-colors"
+      className="inline-flex items-center justify-center bg-green hover:bg-green-700 text-white font-medium sm:py-3 py-3 sm:px-6 px-4 rounded-full transition-colors"
     >
       {buttonText}
     </button>

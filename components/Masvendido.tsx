@@ -11,8 +11,8 @@ const Interests = () => {
 
   return (
     <div className='pt-5'>
-      <section className='flex  w-full pb-10 px-20' >
-        <h2 className="sm:text-[36px] text-[32px] font-bold text-black mb-6 border-b-2 border-primary-100 pb-2">Productos más vendidos</h2>
+      <section className='flex w-full pb-10 md:px-20 px-4'>
+        <h2 className="sm:text-3xl text-2xl font-bold  text-black mb-6 border-b-2 border-primary-100">PRODUCTOS MÁS VENDIDOS</h2>
       </section>
 
       <section className='card_grid'>

@@ -133,8 +133,8 @@ export default function CatalogoPage() {
       </div>
 
 
-      <section className='flex w-full py-4 px-20' >
-        <h2 className="sm:text-[36px] text-[32px] font-bold text-black border-b-4 border-primary-100 pt-4">
+      <section className='flex w-full py-4 pb-10 md:px-20 px-4'>
+        <h2 className="sm:text-3xl text-2xl font-bold text-black border-b-4 border-primary-100 pt-4">
           {selectedCategory && selectedBrand
             ? `${selectedCategory} - ${selectedBrand}`
             : selectedCategory || selectedBrand || 'Catálogo'}

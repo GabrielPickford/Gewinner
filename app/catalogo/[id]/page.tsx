@@ -48,7 +48,7 @@ const ProductPage = async ({ params }: ProductPageProps) => {
 
             {product.precio && product.precio !== '0.00$' && (
               <div className='pt-6 flex justify-between items-center '>
-                <p className="text-3xl font-semibold ">
+                <p className="sm:text-3xl text-2xl font-semibold ">
                   <span className="text-gray-900">{product.precio} Bs</span>
                 </p>
                 <div className="flex justify-between items-center flex-col gap-6">
@@ -90,7 +90,7 @@ const ProductPage = async ({ params }: ProductPageProps) => {
         </section>
       </main>
 
-      <section className="w-full">
+      <section className="w-full p-2">
         <Masvendido />
       </section>
     </>

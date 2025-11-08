@@ -15,13 +15,11 @@ const Header = () => {
                     className="object-contain object-center"
                     priority
                 />
-                {/* Capa oscura */}
-                {/* <div className="absolute inset-0 bg-black/40"></div> */}
             </div>
 
             {/* Contenido de texto */}
-            <div className="container mx-auto px-0 md:px-8">
-                <div className="relative z-10 md:absolute md:top-1/2 md:left-12 md:-translate-y-1/2 bg-white p-8  flex flex-col items-center md:items-start text-center md:text-left max-w-lg">
+            <div className="container mx-auto px-0 md:px-8 -m-4 sm:m-0">
+                <div className=" relative z-10 md:absolute md:top-1/2 md:left-12 md:-translate-y-1/2 bg-white p-8 flex flex-col items-center md:items-start text-center md:text-left max-w-lg">
                     <h2 className="sm:text-[30px] text-[28px] font-bold text-black mb-4">
                         EQUIPO AGRO DE CALIDAD
                     </h2>
