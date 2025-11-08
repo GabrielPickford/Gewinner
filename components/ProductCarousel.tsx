@@ -18,11 +18,13 @@ export default function ProductCarousel({ images, title }: ProductCarouselProps)
   const changeImage = (newIndex: number, dir: 'left' | 'right') => {
     setDirection(dir);
     setNextIndex(newIndex);
+
+    // Esperamos el tiempo de la animación antes de actualizar currentIndex
     setTimeout(() => {
       setCurrentIndex(newIndex);
       setNextIndex(null);
       setDirection(null);
-    }, 300);
+    }, 700); // coincide con la duración de animación CSS
   };
 
   const prevImage = () =>
@@ -34,45 +36,25 @@ export default function ProductCarousel({ images, title }: ProductCarouselProps)
   const selectImage = (index: number) =>
     changeImage(index, index > currentIndex ? 'right' : 'left');
 
-  // Swipe táctil
   const handleTouchStart = (e: React.TouchEvent) => {
     startXRef.current = e.touches[0].clientX;
   };
 
   const handleTouchEnd = (e: React.TouchEvent) => {
     if (startXRef.current === null) return;
-    const endX = e.changedTouches[0].clientX;
-    const diff = startXRef.current - endX;
-
-    if (Math.abs(diff) > 50) {
-      if (diff > 0) {
-        nextImage();
-      } else {
-        prevImage();
-      }
-    }
-
+    const diff = startXRef.current - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 50) (diff > 0 ? nextImage() : prevImage());
     startXRef.current = null;
   };
 
-  // Arrastre con mouse
   const handleMouseDown = (e: React.MouseEvent) => {
     startXRef.current = e.clientX;
   };
 
   const handleMouseUp = (e: React.MouseEvent) => {
     if (startXRef.current === null) return;
-    const endX = e.clientX;
-    const diff = startXRef.current - endX;
-
-    if (Math.abs(diff) > 50) {
-      if (diff > 0) {
-        nextImage();
-      } else {
-        prevImage();
-      }
-    }
-
+    const diff = startXRef.current - e.clientX;
+    if (Math.abs(diff) > 50) (diff > 0 ? nextImage() : prevImage());
     startXRef.current = null;
   };
 
@@ -80,7 +62,6 @@ export default function ProductCarousel({ images, title }: ProductCarouselProps)
 
   return (
     <div className="relative flex flex-col items-center">
-      {/* 🟩 Contenedor cuadrado real y responsive */}
       <div
         className="relative aspect-square w-[320px] sm:w-[400px] md:w-[450px] flex items-center justify-center select-none"
         onTouchStart={handleTouchStart}
@@ -88,8 +69,7 @@ export default function ProductCarousel({ images, title }: ProductCarouselProps)
         onMouseDown={handleMouseDown}
         onMouseUp={handleMouseUp}
       >
-        {/* Marco fijo (borde estable) */}
-        <div className="relative w-full h-full border border-gray-300 startup-card overflow-hidden">
+        <div className="relative w-full h-full border border-gray-300 overflow-hidden">
           {/* Imagen actual */}
           <Image
             key={currentIndex}
@@ -97,16 +77,16 @@ export default function ProductCarousel({ images, title }: ProductCarouselProps)
             alt={title}
             width={3000}
             height={3000}
-            className={`absolute top-0 left-0 object-contain w-full h-full transition-transform duration-50 ${
-              direction === 'left'
-                ? 'translate-x-full opacity-0'
-                : direction === 'right'
-                ? '-translate-x-full opacity-0'
-                : 'translate-x-0 opacity-100'
+            className={`absolute top-0 left-0 object-contain w-full h-full ${
+              direction
+                ? direction === 'right'
+                  ? 'animate-slide-out-left'
+                  : 'animate-slide-out-right'
+                : ''
             }`}
           />
 
-          {/* Imagen siguiente (entrada animada) */}
+          {/* Imagen siguiente */}
           {nextIndex !== null && (
             <Image
               key={nextIndex}
@@ -114,16 +94,14 @@ export default function ProductCarousel({ images, title }: ProductCarouselProps)
               alt={title}
               width={3000}
               height={3000}
-              className={`absolute top-0 left-0 object-contain w-full h-full transition-transform duration-50 ${
-                direction === 'right'
-                  ? 'translate-x-0 opacity-100 animate-slide-in-right'
-                  : 'translate-x-0 opacity-100 animate-slide-in-left'
+              className={`absolute top-0 left-0 object-contain w-full h-full ${
+                direction === 'right' ? 'animate-slide-in-right' : 'animate-slide-in-left'
               }`}
             />
           )}
         </div>
 
-        {/* Botones laterales */}
+        {/* Botones */}
         {images.length > 1 && (
           <>
             <button
@@ -149,7 +127,7 @@ export default function ProductCarousel({ images, title }: ProductCarouselProps)
             <div
               key={idx}
               onClick={() => selectImage(idx)}
-              className={`sm:w-20 w-16 sm:h-20 h-16 border startup-card ${
+              className={`sm:w-20 w-14 sm:h-20 h-14 border ${
                 currentIndex === idx ? 'border-gray-800' : 'border-gray-300'
               } cursor-pointer overflow-hidden rounded-md`}
             >

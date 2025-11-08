@@ -149,7 +149,7 @@ export default function CatalogoPage() {
             id={product.id}
             image={product.image}
             title={product.title}
-            text={product.description}
+            category={product.category}
             precio={product.precio}
           />
         ))}

@@ -33,14 +33,7 @@ const ProductPage = async ({ params }: ProductPageProps) => {
           <div className="space-y-5">
             <h2 className="text-3xl font-bold text-black mb-6 border-b-2 border-primary pb-2">{product.title}</h2>
 
-            {product.precio && product.precio !== '0.00$' && (
-              <div>
-                <p className="text-2xl font-semibold">
-                  <span className="text-gray-800">{product.precio}</span>
-                  <span className="text-black"> Bs</span>
-                </p>
-              </div>
-            )}
+
 
             <div className="text-sm text-gray-500">
               {product.brand && <span className="mr-4"><strong>Marca:</strong> {product.brand}</span>}
@@ -48,14 +41,21 @@ const ProductPage = async ({ params }: ProductPageProps) => {
             </div>
 
             {product.description && product.description.trim() !== '' ? (
-              <p className="text-lg text-gray-700 leading-relaxed">{product.description}</p>
+              <p className="text-md text-gray-600">{product.description}</p>
             ) : (
               <p className="text-gray-400 italic">No hay descripción disponible para este producto.</p>
             )}
 
-            <div className="pt-4">
-              <WhatsAppButton product={product} buttonText="Ordenar por WhatsApp"/>
-            </div>
+            {product.precio && product.precio !== '0.00$' && (
+              <div className='pt-6 flex justify-between items-center '>
+                <p className="text-3xl font-semibold ">
+                  <span className="text-gray-900">{product.precio} Bs</span>
+                </p>
+                <div className="flex justify-between items-center flex-col gap-6">
+                  <WhatsAppButton product={product} buttonText="Ordenar por WhatsApp" />
+                </div>
+              </div>
+            )}
 
             {product.labels && product.labels.length > 0 && (
               <div className="flex flex-wrap gap-2 pt-2">

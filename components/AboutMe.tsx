@@ -3,7 +3,7 @@ import Brandcard from './Brandcard'
 
 const AboutMe = () => {
     return (
-        <section className='w-full h-auto pb-10 grid grid-cols-1 md:grid-cols-2 '>
+        <section className='w-full h-auto grid grid-cols-2 pb-4'>
             <Brandcard
                 image="/assets/logoVulcan.jpg"
                 color="bg-secondary"

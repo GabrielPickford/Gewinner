@@ -10,7 +10,7 @@ const Interests = () => {
   const producto3 = allProducts.find(p => p.id === 'VR520H')
 
   return (
-    <div className='pt-5 '>
+    <div className='pt-5'>
       <section className='flex  w-full pb-10 px-20' >
         <h2 className="sm:text-[36px] text-[32px] font-bold text-black mb-6 border-b-2 border-primary-100 pb-2">Productos más vendidos</h2>
       </section>

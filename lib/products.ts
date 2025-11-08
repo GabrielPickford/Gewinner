@@ -20,7 +20,7 @@ export const products: Product[] = [
   {
     id: 'VSL550',
     title: 'Motosierra 2T, 55cc, 3HP',
-    description: '',
+    description: "Motosierra Vulcan VSL550 2T, 55 cc y 3 HP, con espada de 18” y cadena de 32 dientes, diseñada para cortes precisos y alto rendimiento profesional.",
     image: '/assets/VSL550a.jpg',
     imageB: '/assets/VSL550b.jpg',
     imageC: '/assets/VSL550c.jpg',
@@ -56,7 +56,7 @@ export const products: Product[] = [
   {
     id: 'VS620',
     title: 'Motosierra 2T, 62cc, 4HP',
-    description: '',
+    description: "Motosierra 2T de 62 cc y 4 HP, espada de 20” y cadena de 34 dientes. Alta potencia y rendimiento para trabajos profesionales de corte exigente.",
     image: '/assets/VS620a.jpg',
     imageB: '/assets/VS620b.jpg',
     imageC: '/assets/VS620c.jpg',
@@ -72,28 +72,29 @@ export const products: Product[] = [
       "Motor": "2 Tiempos",
       "Potencia": "4 HP",
       "Cilindrada": "62 cc",
-      "Rotación": "Máxima: 11.000 RPM | En ralentí: 2.800 RPM",
+      "Rotación": "11.000 RPM | Ralentí: 2.800 RPM",
       "Espada": "Vulcan 20” (50 cm) Punta Rodante – Canal 1,50 mm",
       "Cadena": "34 dientes | Paso: 3/8″ | Grosor: 1,50 mm",
-      "Combustible": "Proporción 25:1 – 40 ml de Aceite 2T por litro de gasolina",
+      "Combustible": "Proporción 25:1",
       "Capacidad del tanque": "500 ml",
-      "Consumo": "Aprox. 1,5 litros/hora",
+      "Consumo": "1,5 litros/hora",
       "Aceite": "350 ml",
-      "Sistema de arranque": "Arranque manual con resorte retráctil – Easy Start",
-      "Amortiguadores": "5 amortiguadores en toda la máquina",
+      "Arranque": "Manual con Easy Start",
+      "Amortiguadores": "5 en la máquina",
       "Nivel de ruido": "116 dB",
-      "Autonomía": "Aproximadamente 20 minutos",
-      "Dimensiones del producto": "31 x 28 x 88 cm (Montado con la espada)",
-      "Peso del producto": "7,400 kg",
-      "Garantía": "12 meses para el mercado boliviano",
-      "Contenido del empaque": "– Espada 20”"
+      "Autonomía": "20 minutos",
+      "Dimensiones": "31 x 28 x 88 cm",
+      "Peso": "7,4 kg",
+      "Garantía": "12 meses en Bolivia",
+      "Contenido del empaque": "Espada 20”"
     }
   },
+
   //2 Podadora
   {
     id: 'VP2450',
     title: 'Podadora Cortasetos 2T, 25cc',
-    description: '',
+    description: "Podadora cortasetos 2T, 24,5 cc y 1,1 HP, con cuchilla de 60 cm. Ideal para trabajos de poda precisos, ofrece gran maniobrabilidad y eficiencia en cortes rápidos.",
     image: '/assets/VP2450a.jpg',
     imageB: '/assets/VP2450b.jpg',
     imageC: '/assets/VP2450c.jpg',
@@ -111,25 +112,26 @@ export const products: Product[] = [
       "Cilindrada": "24,5 cc",
       "Rotación": "Lenta: 2.800 RPM - Máxima: 9.000 RPM",
       "Sistema de arranque": "Manual retráctil",
-      "Combustible": "Proporción 25:1 - 40 ml de Aceite 2T por litro de gasolina",
+      "Combustible": "Proporción 25:1",
       "Capacidad del tanque": "700 ml",
       "Consumo": "0,350 litros/hora",
       "Cuchilla de corte": "60 cm (24”) - Doble acción",
       "Apertura de corte": "24 mm",
-      "Empuñadura de comando": "Permite giro de hasta 180º",
+      "Empuñadura de comando": "Giro de hasta 180º",
       "Aceite de cadena": "150 ml",
-      "Autonomía": "Aproximadamente 2 horas",
-      "Dimensiones del producto": "24 x 33 x 110 cm",
-      "Peso del producto": "5,800 kg",
+      "Autonomía": "Aprox. 2 horas",
+      "Dimensiones": "24 x 33 x 110 cm",
+      "Peso": "5,8 kg",
       "Garantía": "6 meses",
-      "Accesorios incluidos": "– Dosificador de combustible\n– Juego de llaves\n– Protector de cuchilla"
+      "Accesorios incluidos": "Dosificador de combustible, juego de llaves, protector de cuchilla"
     }
   },
+
   //1 Podadora
   {
     id: 'VP3300L',
     title: 'Podadora de Altura',
-    description: '',
+    description: "Podadora de altura 2T, 33 cc y 1,3 HP, con espada de 12” y cadena de 22 dientes. Ideal para trabajos de poda en altura, ofrece gran alcance y eficiencia.",
     image: '/assets/VP3300La.jpg',
     imageB: '/assets/VP3300Lb.jpg',
     imageC: '/assets/VP3300Lc.jpg',
@@ -147,30 +149,31 @@ export const products: Product[] = [
       "Cilindrada": "33 cc",
       "Rotación": "Lenta: 2.800 RPM | Máxima: 10.000 RPM",
       "Sistema de arranque": "Easy Start",
-      "Combustible": "Proporción 25:1 - 40 ml de Aceite 2T por 1 L de gasolina",
+      "Combustible": "Proporción 25:1",
       "Capacidad del tanque": "750 ml",
       "Consumo": "1,3 litros/hora",
-      "Espada": "Espada 12” (30 cm) - Punta rodante - Canal 1,30 mm",
+      "Espada": "12” (30 cm) – Punta rodante – Canal 1,30 mm",
       "Cadena": "22 dientes | Paso: 3/8″ | Grosor: 1,3 mm",
       "Eje cardán primario": "Rígido 8 mm - 9 estrías - 153 cm",
-      "Eje cardán del extensor": "Rígido 8 mm - 9 estrías - 76 cm",
+      "Eje cardán extensor": "Rígido 8 mm - 9 estrías - 76 cm",
       "Tubo primario": "26 mm - 150 cm",
-      "Tubo del extensor": "26 mm - 76 cm",
-      "Alcance": "Operador con altura promedio: 4 metros",
+      "Tubo extensor": "26 mm - 76 cm",
+      "Alcance": "Hasta 4 metros",
       "Aceite de cadena": "150 ml",
-      "Autonomía": "Aproximadamente 40 minutos",
+      "Autonomía": "Aprox. 40 minutos",
       "Nivel de ruido": "100 dB",
-      "Dimensiones del producto": "26 x 26 x 288 cm",
-      "Peso del producto": "7,700 kg",
+      "Dimensiones": "26 x 26 x 288 cm",
+      "Peso": "7,7 kg",
       "Garantía": "6 meses",
-      "Accesorios incluidos": "– Cinturón de soporte\n– Barra extensora\n– Dosificador de combustible\n– Juego de llaves\n– Protector de espada\n– Espada 12”\n– Cadena\n– Manual del producto"
+      "Accesorios incluidos": "Cinturón de soporte, barra extensora, dosificador de combustible, juego de llaves, protector de espada, espada 12”, cadena, manual"
     }
   },
+
   //2 Fumigadora
   {
     id: 'VPB16L',
     title: 'Fumigadora Batería 16L',
-    description: '',
+    description: "Fumigadora profesional a batería, 16L de capacidad. Bomba eléctrica con autonomía de hasta 10 horas, ideal para aplicaciones intensivas en espacios agrícolas y comerciales.",
     image: '/assets/VPB16La.jpg',
     imageB: '/assets/VPB16Lb.jpg',
     imageC: '/assets/VPB16Lc.jpg',
@@ -186,29 +189,27 @@ export const products: Product[] = [
       "Aplicación": "Profesional",
       "Capacidad del tanque": "16 litros",
       "Autonomía de la batería": "10 horas",
-      "Autonomía del depósito": "Vaciado: de 10 a 12 minutos",
-      "Accionamiento": "Eléctrico: por bomba eléctrica a batería | Manual: por palanca tipo “L”",
+      "Autonomía del depósito": "10-12 minutos",
+      "Accionamiento": "Eléctrico (bomba a batería) / Manual (palanca tipo 'L')",
       "Presión": "Máxima: 6 bar | Mínima: 4 bar",
-      "Caudal máximo": "2,2 a 4 litros por minuto",
-      "Material del pistón": "PP - Polipropileno",
-      "Lanza": "Telescópica de 0,86 metros",
-      "Manguera": "1,24 metros",
-      "Tipo de palanca": "Tipo “L” cuando se utiliza de forma manual",
-      "Tipo de batería": "12V - 12A/h - Tamaño (Al x An x Pr) 10 x 10 x 15 cm",
-      "Cargador": "Fuente transformadora bivolt 110/220V - 1.7A/h",
-      "Tiempo de recarga de la batería": "De 6 a 8 horas",
-      "Dimensiones del producto": "54 x 19 x 36 cm",
-      "Peso del producto": "6,750 kg",
+      "Caudal máximo": "2,2 - 4 l/min",
+      "Material del pistón": "Polipropileno (PP)",
+      "Lanza": "Telescópica 0,86 m",
+      "Manguera": "1,24 m",
+      "Batería": "12V - 12A/h (10 x 10 x 15 cm)",
+      "Cargador": "Bivolt 110/220V - 1.7A/h",
+      "Tiempo de recarga": "6-8 horas",
+      "Dimensiones": "54 x 19 x 36 cm",
+      "Peso": "6,75 kg",
       "Garantía": "6 meses",
-      "Accesorios incluidos": "– 01 Junta\n– 04 Anillos de sellado\n– 02 Anillos Oring\n– 01 Boquilla tipo “L”\n– 01 Boquilla de 4 orificios\n– 01 Boquilla multidireccional de niebla\n– 01 Cargador de batería"
+      "Accesorios incluidos": "Junta, anillos de sellado, boquillas (tipo L, 4 orificios, multidireccional), cargador de batería"
     }
   },
-
-  //1 Fumigadora
+//1 Fumigadora
   {
     id: 'VAT820P',
     title: 'Fumigadora con Bomba 2T, 5.4HP, 82cc',
-    description: '',
+    description: "Fumigadora 2T, 82cc y 5,4 HP con bomba para aplicación de líquidos y sólidos. Ideal para uso agrícola, con capacidad de 20L y alcance de hasta 12 m horizontal.",
     image: '/assets/VAT820Pa.jpg',
     imageB: '/assets/VAT820Pb.jpg',
     imageC: '/assets/VAT820Pc.jpg',
@@ -225,27 +226,28 @@ export const products: Product[] = [
       "Potencia": "5,4 HP",
       "Cilindrada": "82 cc",
       "Rotación": "Lenta: 2.800 RPM | Máxima: 6.800 RPM",
-      "Combustible": "Proporción 25:1 - 40 ml de Aceite 2T por 1 litro de gasolina",
+      "Combustible": "Proporción 25:1",
       "Sistema de arranque": "Manual con resorte retráctil",
-      "Consumo": "Aproximadamente 1,4 litros por hora",
-      "Capacidad del tanque de combustible": "2.000 ml",
-      "Autonomía": "Aproximadamente 1 hora y 25 minutos",
+      "Consumo": "1,4 l/h",
+      "Capacidad del tanque combustible": "2.000 ml",
       "Capacidad del tanque químico": "20 litros",
-      "Caudal": "3,3 kg por minuto (sólido) | 5,5 litros por minuto (líquido)",
-      "Alcance de aplicación": "12 metros horizontal | 6 metros vertical",
+      "Autonomía": "1 h 25 min",
+      "Caudal": "3,3 kg/min (sólido) | 5,5 l/min (líquido)",
+      "Alcance de aplicación": "12 m horizontal | 6 m vertical",
       "Nivel de ruido": "110 dB",
-      "Dimensiones del producto": "40 x 58 x 143 cm",
-      "Peso del producto": "13,000 kg",
+      "Dimensiones": "40 x 58 x 143 cm",
+      "Peso": "13 kg",
       "Garantía": "6 meses",
-      "Accesorios incluidos": "– Dosificador de combustible\n– Cinturón de soporte\n– Juego de llaves\n– Bujía de encendido\n– 2 Anillos de pistón\n– Embudo\n– Juego de abrazaderas metálicas"
+      "Accesorios incluidos": "Dosificador de combustible, cinturón de soporte, juego de llaves, bujía, anillos de pistón, embudo, abrazaderas metálicas"
     }
   },
+
 
   //1 Taladro
   {
     id: 'VF500',
     title: 'Taladro',
-    description: '',
+    description: "Taladro 2T, 25,4 cc y 1 HP, con capacidad de perforación de hasta 28 mm. Ideal para trabajos de perforación en madera, con mecanismo de reversión y arranque manual.",
     image: '/assets/VF500a.jpg',
     imageB: '/assets/VF500b.jpg',
     imageC: '/assets/VF500c.jpg',
@@ -262,158 +264,156 @@ export const products: Product[] = [
       "Potencia": "1 HP",
       "Cilindrada": "25,4 cc",
       "Rotación": "Máxima: 10.000 RPM | En ralentí: 3.000 RPM",
-      "Combustible": "Gasolina - Proporción 25:1",
+      "Combustible": "Gasolina – Proporción 25:1",
       "Sistema de arranque": "Manual con resorte retráctil",
-      "Consumo": "Aproximadamente 0,45 litros por hora",
-      "Capacidad del tanque de combustible": "600 ml",
-      "Reducción": "Relación de reducción 10:1",
+      "Consumo": "Aprox. 0,45 l/h",
+      "Capacidad del tanque": "600 ml",
+      "Reducción": "10:1",
       "Engranajes": "Acero templado",
-      "Reversión": "Posee mecanismo para inversión de la broca",
-      "Brocas": "Broca de 12 mm para poste de madera | Broca de 28 mm para poste de madera",
-      "Mandril": "1/2’’ para brocas de 2 a 13 mm - 21UNF",
-      "Dimensiones del producto": "31 x 23 x 75 cm",
-      "Peso del producto con broca de 28 mm": "6,100 kg",
+      "Reversión": "Mecanismo de inversión de broca",
+      "Brocas": "12 mm y 28 mm para postes de madera",
+      "Mandril": "1/2’’ – Para brocas de 2 a 13 mm - 21UNF",
+      "Dimensiones": "31 x 23 x 75 cm",
+      "Peso": "6,1 kg (con broca de 28 mm)",
       "Garantía": "6 meses",
-      "Accesorios incluidos": "– 2 Brocas\n– 1 Llave de bujía\n– 3 Llaves Allen\n– 2 Llaves de boca\n– 1 Dosificador de combustible"
+      "Accesorios incluidos": "2 Brocas, llave de bujía, 3 llaves Allen, 2 llaves de boca, dosificador de combustible"
     }
   },
 
-  //4 Desbrozadora
-  {
-    id: 'VRM330',
-    title: 'Desbrozadora Multifunción 1.5HP, 33cc',
-    description: '',
-    image: '/assets/VRM330a.jpg',
-    imageB: '/assets/VRM330b.jpg',
-    imageC: '/assets/VRM330c.jpg',
-    imageD: '/assets/VRM330d.jpg',
-    imageE: '/assets/VRM330e.jpg',
-    category: 'Desbrozadoras',
-    brand: 'Vulcan',
-    labels: ['', ''],
-    precio: '5.085',
-    details: {
-      "Código Vulcan Trent": "81248",
-      "Modelo": "VRM330",
-      "Motor": "2 Tiempos",
-      "Potencia": "1,3 HP - 33 cc",
-      "Nivel de ruido": "114 dB",
-      "Rotación": "Lenta: 2.800 RPM | Máxima: 10.000 RPM",
-      "Sistema de arranque": "Manual con resorte retráctil - Easy Start",
-      "Combustible": "Proporción 25:1 - 40 ml de Aceite 2T por 1 litro de gasolina",
-      "Capacidad del tanque": "650 ml",
-      "Consumo": "0,65 litros por hora",
-      "Autonomía": "Aproximadamente 1 hora",
+//4 Desbrozadora
+{
+  id: 'VRM330',
+  title: 'Desbrozadora Multifunción 1.5HP, 33cc',
+  description: 'Desbrozadora Vulcan VRM330 multifunción, ligera y potente, con accesorios para cortar hierba, ramas y setos.',
+  image: '/assets/VRM330a.jpg',
+  imageB: '/assets/VRM330b.jpg',
+  imageC: '/assets/VRM330c.jpg',
+  imageD: '/assets/VRM330d.jpg',
+  imageE: '/assets/VRM330e.jpg',
+  category: 'Desbrozadoras',
+  brand: 'Vulcan',
+  labels: ['', ''],
+  precio: '5.085',
+  details: {
+    "Código Vulcan Trent": "81248",
+    "Modelo": "VRM330",
+    "Motor": "2 Tiempos",
+    "Potencia": "1,3 HP - 33 cc",
+    "Nivel de ruido": "114 dB",
+    "Rotación": "Lenta: 2.800 RPM | Máxima: 10.000 RPM",
+    "Sistema de arranque": "Manual con resorte retráctil - Easy Start",
+    "Combustible": "Proporción 25:1 - 40 ml de Aceite 2T por 1 litro de gasolina",
+    "Capacidad del tanque": "650 ml",
+    "Consumo": "0,65 litros por hora",
+    "Autonomía": "Aproximadamente 1 hora",
+    "Función Desbrozadora - Eje cardán primario": "Rígido de 8 mm con 9 estrías - Longitud 76 cm (eje de conexión)",
+    "Función Desbrozadora - Eje cardán secundario": "Rígido de 8 mm con 9 estrías - Longitud 77 cm",
+    "Función Desbrozadora - Tubo del eje cardán": "26 mm - 75 cm",
+    "Función Desbrozadora - Peso del producto": "6,350 kg",
+    "Función Desbrozadora - Dimensiones del producto": "25 x 38 x 180 cm",
+    "Función Podador de ramas - Eje cardán secundario": "Rígido de 8 mm con 9 estrías - Longitud 77 cm",
+    "Función Podador de ramas - Tubo del eje cardán": "26 mm - 75 cm",
+    "Función Podador de ramas - Alcance": "2,5 metros con un operador de estatura promedio",
+    "Función Podador de ramas - Espada": "12” (30 cm) con punta rodante, canal 1,30 mm",
+    "Función Podador de ramas - Cadena": "22 dientes - Paso 3/8” - Grosor 1,3 mm",
+    "Función Podador de ramas - Peso del producto": "6,350 kg",
+    "Función Podador de ramas - Dimensiones del producto": "25 x 33 x 210 cm",
+    "Función Podador de setos - Eje cardán secundario": "Rígido de 8 mm con 9 estrías - Longitud 77 cm",
+    "Función Podador de setos - Tubo del eje cardán": "26 mm - 75 cm",
+    "Función Podador de setos - Alcance": "2,6 metros con un operador de estatura promedio",
+    "Función Podador de setos - Cuchilla de corte": "17” (43 cm) | Apertura de cuchilla: 25 mm",
+    "Función Podador de setos - Peso del producto": "7,000 kg",
+    "Función Podador de setos - Dimensiones del producto": "25 x 33 x 230 cm"
+  }
+},
 
-      "Función Desbrozadora - Eje cardán primario": "Rígido de 8 mm con 9 estrías - Longitud 76 cm (eje de conexión)",
-      "Función Desbrozadora - Eje cardán secundario": "Rígido de 8 mm con 9 estrías - Longitud 77 cm",
-      "Función Desbrozadora - Tubo del eje cardán": "26 mm - 75 cm",
-      "Función Desbrozadora - Peso del producto": "6,350 kg",
-      "Función Desbrozadora - Dimensiones del producto": "25 x 38 x 180 cm",
+//3 Desbrozadora
+{
+  id: 'VR620H',
+  title: 'Desbrozadora a Gasolina 3HP, 62cc',
+  description: 'Desbrozadora Vulcan VR620H de 3HP, con carrete automático y cuchilla de 3 puntas, para uso intensivo.',
+  image: '/assets/VR620Ha.jpg',
+  imageB: '/assets/VR620Hb.jpg',
+  imageC: '/assets/VR620Hc.jpg',
+  imageD: '/assets/VR620Hd.jpg',
+  imageE: '/assets/VR620He.jpg',
+  category: 'Desbrozadoras',
+  brand: 'Vulcan',
+  labels: ['', ''],
+  precio: '3.257',
+  details: {
+    "Código Vulcan Trent": "81828",
+    "Modelo": "VR620H",
+    "Motor": "2 Tiempos",
+    "Potencia": "3 HP",
+    "Cilindrada": "62 cc",
+    "Rotación": "Lenta: 2.800 RPM | Máxima: 10.800 RPM",
+    "Sistema de arranque": "Easy Start",
+    "Combustible": "Proporción 25:1 - 40 ml de Aceite 2T por 1 litro de gasolina",
+    "Capacidad del tanque": "1.100 ml",
+    "Consumo": "1,5 litros/hora",
+    "Manillar": "Bipartido, fijado con soportes atornillados",
+    "Empuñaduras": "Polipropileno reforzado",
+    "Tubo del eje": "28 mm - 150 cm - Aluminio",
+    "Eje cardán": "8 mm x 9 estrías - 153 cm - Rígido",
+    "Cuchilla": "De 3 puntas (30 cm x 1,6 mm - Orificio 1\")",
+    "Carrete": "Carrete automático",
+    "Arnés": "Arnés doble con almohadillas",
+    "Nivel de ruido": "108 dB",
+    "Peso del producto": "9,970 kg",
+    "Dimensiones del producto": "27 x 65 x 188 cm",
+    "Garantía": "6 meses",
+    "Accesorios incluidos": "– Protector de cuchilla\n– Dosificador de combustible\n– Cuchilla de 3 puntas\n– Carrete automático\n– Arnés doble\n– 4 Tornillos Allen 6x20 mm\n– 2 Tornillos Allen 6x15 mm\n– Llave de bujía\n– Destornillador plano/Phillips\n– Llave de boca\n– 2 Llaves Allen\n– Soporte metálico de fijación de la cuchilla\n– Manual del producto"
+  }
+},
 
-      "Función Podador de ramas - Eje cardán secundario": "Rígido de 8 mm con 9 estrías - Longitud 77 cm",
-      "Función Podador de ramas - Tubo del eje cardán": "26 mm - 75 cm",
-      "Función Podador de ramas - Alcance": "2,5 metros con un operador de estatura promedio",
-      "Función Podador de ramas - Espada": "12” (30 cm) con punta rodante, canal 1,30 mm",
-      "Función Podador de ramas - Cadena": "22 dientes - Paso 3/8” - Grosor 1,3 mm",
-      "Función Podador de ramas - Peso del producto": "6,350 kg",
-      "Función Podador de ramas - Dimensiones del producto": "25 x 33 x 210 cm",
+//2 Desbrozadora
+{
+  id: 'VR520HB',
+  title: 'Desbrozadora a Gasolina 5.5HP, 52cc Desmontable',
+  description: 'Desbrozadora Vulcan VR520HB desmontable, potente y versátil, con carrete automático y cuchilla de 3 puntas.',
+  image: '/assets/VR520HBa.jpg',
+  imageB: '/assets/VR520HBb.jpg',
+  imageC: '/assets/VR520HBc.jpg',
+  imageD: '/assets/VR520HBd.jpg',
+  imageE: '/assets/VR520HBe.jpg',
+  category: 'Desbrozadoras',
+  brand: 'Vulcan',
+  labels: ['', ''],
+  precio: '2.315',
+  details: {
+    "Código Vulcan Trent": "82658",
+    "Modelo": "VR520HB",
+    "Motor": "2 Tiempos",
+    "Potencia": "2,5 HP",
+    "Cilindrada": "52 cc",
+    "Rotación": "Lenta: 2.800 RPM | Máxima: 10.000 RPM",
+    "Sistema de arranque": "Easy Start",
+    "Combustible": "Proporción 25:1 - 40 ml de Aceite 2T por 1 litro de gasolina",
+    "Capacidad del tanque": "1.000 ml",
+    "Consumo": "0,9 litros/hora",
+    "Manillar": "Bipartido, fijado con soportes atornillados",
+    "Empuñaduras": "Polipropileno reforzado",
+    "Tubo del eje primario": "26 mm - 74,5 cm - Aluminio",
+    "Eje cardán secundario": "Rígido 8 mm x 9 estrías - 76,2 cm",
+    "Tubo del eje secundario": "26 mm - 74,5 cm - Aluminio",
+    "Cuchilla": "De 3 puntas (24 cm x 1,6 mm - Orificio 1\")",
+    "Carrete": "Carrete automático",
+    "Arnés": "Arnés doble con hombreras acolchadas",
+    "Nivel de ruido": "105 dB",
+    "Peso del producto": "7,700 kg",
+    "Dimensiones del producto": "27 x 65 x 188 cm",
+    "Garantía": "6 meses",
+    "Accesorios incluidos": "– Protector de cuchilla\n– Mezclador de combustible\n– Cuchilla de 3 puntas\n– Carrete automático\n– Arnés de soporte transversal\n– 4 Tornillos Allen 6x20 mm\n– 2 Tornillos Allen 6x15 mm\n– Llave de bujía\n– Destornillador plano/Phillips\n– Llave de boca\n– 2 Llaves Allen\n– Soporte metálico de fijación de cuchilla\n– Manual del producto"
+  }
+},
 
-      "Función Podador de setos - Eje cardán secundario": "Rígido de 8 mm con 9 estrías - Longitud 77 cm",
-      "Función Podador de setos - Tubo del eje cardán": "26 mm - 75 cm",
-      "Función Podador de setos - Alcance": "2,6 metros con un operador de estatura promedio",
-      "Función Podador de setos - Cuchilla de corte": "17” (43 cm) | Apertura de cuchilla: 25 mm",
-      "Función Podador de setos - Peso del producto": "7,000 kg",
-      "Función Podador de setos - Dimensiones del producto": "25 x 33 x 230 cm"
-    }
-  },
-
-  //3 Desbrozadora
-  {
-    id: 'VR620H',
-    title: 'Desbrozadora a Gasolina 3HP, 62cc',
-    description: '',
-    image: '/assets/VR620Ha.jpg',
-    imageB: '/assets/VR620Hb.jpg',
-    imageC: '/assets/VR620Hc.jpg',
-    imageD: '/assets/VR620Hd.jpg',
-    imageE: '/assets/VR620He.jpg',
-    category: 'Desbrozadoras',
-    brand: 'Vulcan',
-    labels: ['', ''],
-    precio: '3.257',
-    details: {
-      "Código Vulcan Trent": "81828",
-      "Modelo": "VR620H",
-      "Motor": "2 Tiempos",
-      "Potencia": "3 HP",
-      "Cilindrada": "62 cc",
-      "Rotación": "Lenta: 2.800 RPM | Máxima: 10.800 RPM",
-      "Sistema de arranque": "Easy Start",
-      "Combustible": "Proporción 25:1 - 40 ml de Aceite 2T por 1 litro de gasolina",
-      "Capacidad del tanque": "1.100 ml",
-      "Consumo": "1,5 litros/hora",
-      "Manillar": "Bipartido, fijado con soportes atornillados",
-      "Empuñaduras": "Polipropileno reforzado",
-      "Tubo del eje": "28 mm - 150 cm - Aluminio",
-      "Eje cardán": "8 mm x 9 estrías - 153 cm - Rígido",
-      "Cuchilla": "De 3 puntas (30 cm x 1,6 mm - Orificio 1\")",
-      "Carrete": "Carrete automático",
-      "Arnés": "Arnés doble con almohadillas",
-      "Nivel de ruido": "108 dB",
-      "Peso del producto": "9,970 kg",
-      "Dimensiones del producto": "27 x 65 x 188 cm",
-      "Garantía": "6 meses",
-      "Accesorios incluidos": "– Protector de cuchilla\n– Dosificador de combustible\n– Cuchilla de 3 puntas\n– Carrete automático\n– Arnés doble\n– 4 Tornillos Allen 6x20 mm\n– 2 Tornillos Allen 6x15 mm\n– Llave de bujía\n– Destornillador plano/Phillips\n– Llave de boca\n– 2 Llaves Allen\n– Soporte metálico de fijación de la cuchilla\n– Manual del producto"
-    }
-  },
-
-  //2 Desbrozadora
-  {
-    id: 'VR520HB',
-    title: 'Desbrozadora a Gasolina 5.5HP, 52cc Desmontable',
-    description: '',
-    image: '/assets/VR520HBa.jpg',
-    imageB: '/assets/VR520HBb.jpg',
-    imageC: '/assets/VR520HBc.jpg',
-    imageD: '/assets/VR520HBd.jpg',
-    imageE: '/assets/VR520HBe.jpg',
-    category: 'Desbrozadoras',
-    brand: 'Vulcan',
-    labels: ['', ''],
-    precio: '2.315',
-    details: {
-      "Código Vulcan Trent": "82658",
-      "Modelo": "VR520HB",
-      "Motor": "2 Tiempos",
-      "Potencia": "2,5 HP",
-      "Cilindrada": "52 cc",
-      "Rotación": "Lenta: 2.800 RPM | Máxima: 10.000 RPM",
-      "Sistema de arranque": "Easy Start",
-      "Combustible": "Proporción 25:1 - 40 ml de Aceite 2T por 1 litro de gasolina",
-      "Capacidad del tanque": "1.000 ml",
-      "Consumo": "0,9 litros/hora",
-      "Manillar": "Bipartido, fijado con soportes atornillados",
-      "Empuñaduras": "Polipropileno reforzado",
-      "Tubo del eje primario": "26 mm - 74,5 cm - Aluminio",
-      "Eje cardán secundario": "Rígido 8 mm x 9 estrías - 76,2 cm",
-      "Tubo del eje secundario": "26 mm - 74,5 cm - Aluminio",
-      "Cuchilla": "De 3 puntas (24 cm x 1,6 mm - Orificio 1\")",
-      "Carrete": "Carrete automático",
-      "Arnés": "Arnés doble con hombreras acolchadas",
-      "Nivel de ruido": "105 dB",
-      "Peso del producto": "7,700 kg",
-      "Dimensiones del producto": "27 x 65 x 188 cm",
-      "Garantía": "6 meses",
-      "Accesorios incluidos": "– Protector de cuchilla\n– Mezclador de combustible\n– Cuchilla de 3 puntas\n– Carrete automático\n– Arnés de soporte transversal\n– 4 Tornillos Allen 6x20 mm\n– 2 Tornillos Allen 6x15 mm\n– Llave de bujía\n– Destornillador plano/Phillips\n– Llave de boca\n– 2 Llaves Allen\n– Soporte metálico de fijación de cuchilla\n– Manual del producto"
-    }
-  },
 
   //1 Desbrozadora
   {
     id: 'VR520H',
     title: 'Desbrozadora a Gasolina 5.5HP, 52cc',
-    description: '',
+    description: "Desbrozadora 2T de 52cc y 2,5 HP, ideal para trabajos de corte pesado, con sistema Easy Start, manillar bipartido y cuchilla de 3 puntas.",
     image: '/assets/VR520Ha.jpg',
     imageB: '/assets/VR520Hb.jpg',
     imageC: '/assets/VR520Hc.jpg',
@@ -435,9 +435,6 @@ export const products: Product[] = [
       "Capacidad del tanque": "1.000 ml",
       "Consumo": "0,9 litros/hora",
       "Manillar": "Bipartido, fijado con soportes atornillados",
-      "Empuñaduras": "Polipropileno reforzado",
-      "Tubo del eje": "28 mm - 150 cm - Aluminio",
-      "Eje cardán": "8 mm x 9 estrías - 153 cm - Rígido",
       "Cuchilla": "Faca 3 puntas (30 cm x 1,6 mm - Furo 1\")",
       "Carrete": "Carrete automático",
       "Arnés": "Cinto doble con almohadillas",
@@ -445,15 +442,15 @@ export const products: Product[] = [
       "Peso del producto": "7,600 kg",
       "Dimensiones del producto": "27 x 65 x 188 cm",
       "Garantía": "6 meses",
-      "Accesorios incluidos": "01 Protector de cuchilla, 01 Dosador de combustible, 01 Faca 3 puntas, 01 Carrete, 01 Cinto doble, 04 Tornillos Allen 6x20 mm, 02 Tornillos Allen 6x15 mm, 01 Llave de bujía, 01 Destornillador plano/Phillips, 01 Llave de boca, 02 Llaves Allen, 01 Soporte metálico de fijación de cuchilla, 01 Manual del producto"
+      "Accesorios incluidos": "Protector de cuchilla, Dosador de combustible, Faca 3 puntas, Carrete, Cinto doble, Tornillos, Llave de bujía, Destornillador, Llave de boca, Manual"
     }
   },
 
-  //4 Motobomba
+//4 Motobomba
   {
     id: 'VB10B',
     title: 'Motobomba a Gasolina 1"',
-    description: '',
+    description: "Motobomba auto-escorvante 2T de 52cc y 2,5 HP, ideal para aplicaciones agrícolas, con 1” de entrada y salida, y capacidad de succión de hasta 7 metros.",
     image: '/assets/VB10Ba.jpg',
     imageB: '/assets/VB10Bb.jpg',
     imageC: '/assets/VB10Bc.jpg',
@@ -473,11 +470,10 @@ export const products: Product[] = [
       "Tipo de motobomba": "Auto-Escorvante",
       "Rotación": "Máx: 10.300 RPM | Lenta: 2.800 RPM",
       "Bitola de mangueras": "Entrada: 1” (25mm) | Salida: 1” (25mm)",
-      "Cantidad de salidas": "1 salida de 1” (25mm)",
       "Columna de agua": "20 MCA",
       "Vazão máxima": "7 m³/h o 7.000 litros/h",
       "Sucção máxima": "7 metros",
-      "Tempo de succión": "De 1 a 4 minutos",
+      "Tiempo de succión": "De 1 a 4 minutos",
       "Sistema de arranque": "Easy Start - Partida fácil",
       "Consumo": "Aprox. 1 litro/h",
       "Autonomía": "Aprox. 1 hora",
@@ -486,15 +482,16 @@ export const products: Product[] = [
       "Dimensiones del producto": "31 x 29 x 35 cm",
       "Peso del producto": "8,700 kg",
       "Garantía": "6 meses",
-      "Accesorios incluidos": "01 Juego de llaves, 01 Dosador de combustible, 01 Filtro peneira"
+      "Accesorios incluidos": "Juego de llaves, Dosador de combustible, Filtro peneira"
     }
   },
+
 
   //3 Motobomba
   {
     id: 'VMB552H',
     title: 'Motobomba a Gasolina Caudal 2" Alta Presión',
-    description: '',
+    description: "Motobomba auto-aspirante de alta presión 4T, 6,5 HP, ideal para aplicaciones exigentes, con caudal de hasta 30.000 litros/hora y succión hasta 7 metros.",
     image: '/assets/VMB552Ha.jpg',
     imageB: '/assets/VMB552Hb.jpg',
     imageC: '/assets/VMB552Hc.jpg',
@@ -528,7 +525,7 @@ export const products: Product[] = [
       "Peso del producto": "23,600 kg",
       "Garantía": "6 meses",
       "Registro en CREA": "62314",
-      "Accesorios incluidos": "01 Filtro peneira, 05 Abrazaderas, 04 Niples, 03 Tapas roscadas, 04 Tuercas de niples y 01 Llave de bujía"
+      "Accesorios incluidos": "Filtro peneira, 05 Abrazaderas, 04 Niples, 03 Tapas roscadas, 04 Tuercas de niples, Llave de bujía"
     }
   },
 
@@ -536,7 +533,7 @@ export const products: Product[] = [
   {
     id: 'VMB653S',
     title: 'Motobomba a Gasolina Caudal 3"',
-    description: '',
+    description: "Motobomba auto-aspirante 4T, 6,5 HP, con caudal máximo de 60.000 litros/hora y succión hasta 7 metros, ideal para grandes volúmenes de agua.",
     image: '/assets/VMB653Sa.jpg',
     imageB: '/assets/VMB653Sb.jpg',
     imageC: '/assets/VMB653Sc.jpg',
@@ -570,7 +567,7 @@ export const products: Product[] = [
       "Peso del producto": "19,700 kg",
       "Garantía": "6 meses",
       "Registro en CREA": "62314",
-      "Accesorios incluidos": "01 Llave de bujía, 03 Abrazaderas de acero, 01 Filtro peneira, 02 Niples, 02 Tuercas de niple"
+      "Accesorios incluidos": "Llave de bujía, 03 Abrazaderas de acero, Filtro peneira, 02 Niples, 02 Tuercas de niple"
     }
   },
 
@@ -578,7 +575,7 @@ export const products: Product[] = [
   {
     id: 'VMB652S',
     title: 'Motobomba a Gasolina Caudal 2"',
-    description: '',
+    description: "Motobomba auto-aspirante 4T, 6,5 HP, con caudal de 36.000 litros/hora y succión hasta 7 metros, ideal para aplicaciones agrícolas y comerciales.",
     image: '/assets/VMB652Sa.jpg',
     imageB: '/assets/VMB652Sb.jpg',
     imageC: '/assets/VMB652Sc.jpg',
@@ -612,7 +609,7 @@ export const products: Product[] = [
       "Peso del producto": "18,300 kg",
       "Garantía": "6 meses",
       "Registro en CREA": "62314",
-      "Accesorios incluidos": "01 Llave de bujía, 03 abrazaderas de acero, 01 filtro peneira, 02 niples, 02 tuercas de niple, 04 pies de goma con tuerca"
+      "Accesorios incluidos": "Llave de bujía, 03 abrazaderas de acero, Filtro peneira, 02 niples, 02 tuercas de niple, 04 pies de goma con tuerca"
     }
   },
 
@@ -622,7 +619,7 @@ export const products: Product[] = [
   {
     id: 'HWP5028',
     title: 'Motobomba a Gasolina Caudal 2"',
-    description: '',
+    description: "Motobomba a gasolina con caudal de hasta 30 m³/h, ideal para aplicaciones de riego y drenaje con succión máxima de 8 m y altura máxima de 30 m.",
     image: '/assets/HWP5028a.jpg',
     category: 'Motobombas',
     brand: 'Hyundai',
@@ -642,11 +639,11 @@ export const products: Product[] = [
     }
   },
 
-  //2 Motobomba
+//2 Motobomba
   {
     id: 'HWP8028',
     title: 'Motobomba a Gasolina Caudal 3"',
-    description: '',
+    description: "Motobomba de gasolina con caudal máximo de 58 m³/h y succión máxima de 7,5 m, adecuada para aplicaciones de drenaje y riego intensivo.",
     image: '/assets/HWP8028a.jpg',
     category: 'Motobombas',
     brand: 'Hyundai',
@@ -666,11 +663,11 @@ export const products: Product[] = [
     }
   },
 
-  //3 Motobomba
+//3 Motobomba
   {
     id: 'HWPS028HP70',
     title: 'Motobomba a Gasolina Alta Presión',
-    description: '',
+    description: "Motobomba de alta presión con una potencia de 4,3 kW y altura máxima de 70 m, diseñada para aplicaciones que requieren alta presión y caudal controlado.",
     image: '/assets/HWPS028HP70a.jpg',
     category: 'Motobombas',
     brand: 'Hyundai',
@@ -690,11 +687,11 @@ export const products: Product[] = [
     }
   },
 
-  //1 Generador
+//1 Generador
   {
     id: 'HG2200',
     title: 'Generador a Gasolina 2200W',
-    description: '',
+    description: "Generador a gasolina de 2,2 kW con una autonomía de hasta 13 horas, ideal para uso doméstico o en exteriores. Su motor R210-L2 ofrece un rendimiento fiable.",
     image: '/assets/HG2200a.jpg',
     category: 'Generadores',
     brand: 'Hyundai',
@@ -719,11 +716,11 @@ export const products: Product[] = [
     }
   },
 
-  //2 Generador
+//2 Generador
   {
     id: 'HG2800',
     title: 'Generador a Gasolina 2800W',
-    description: '',
+    description: "Generador de gasolina compacto con una potencia máxima de 2,8 kW y una capacidad de tanque de 15 L, ideal para trabajos pequeños o uso doméstico con un tiempo de funcionamiento de hasta 11,5 horas.",
     image: '/assets/HG2800a.jpg',
     category: 'Generadores',
     brand: 'Hyundai',
@@ -747,11 +744,12 @@ export const products: Product[] = [
       "Peso": "45 kg"
     }
   },
-  //3 Generador
+
+//3 Generador
   {
     id: 'HG3000E',
     title: 'Generador a Gasolina 3000W',
-    description: '',
+    description: "Generador robusto con potencia máxima de 3 kW y una autonomía de hasta 10 horas. Ideal para aplicaciones de mayor demanda, como el uso en obras y eventos al aire libre.",
     image: '/assets/HG3000Ea.jpg',
     category: 'Generadores',
     brand: 'Hyundai',
@@ -775,11 +773,12 @@ export const products: Product[] = [
       "Peso": "46 kg"
     }
   },
-  //4 Generador
+
+//4 Generador
   {
     id: 'HG3000',
     title: 'Generador a Gasolina 3000W',
-    description: '',
+    description: "Generador versátil con salida de 3 kW, adecuado para tareas de energía continua y para soportar equipos de mediana carga, con un consumo eficiente de combustible y ruido controlado.",
     image: '/assets/HG3000a.jpg',
     category: 'Generadores',
     brand: 'Hyundai',
@@ -803,11 +802,12 @@ export const products: Product[] = [
       "Peso": "46 kg"
     }
   },
-  //5 Generador
+
+//5 Generador
   {
     id: 'HG6000E',
     title: 'Generador a Gasolina 6000W',
-    description: '',
+    description: "Generador de alto rendimiento con potencia máxima de 6,5 kW y arranque eléctrico, ideal para aplicaciones industriales y comerciales. Con capacidad de 15L de combustible y sistema AVR para regulación de voltaje.",
     image: '/assets/HG6000Ea.jpg',
     category: 'Generadores',
     brand: 'Hyundai',
@@ -829,11 +829,12 @@ export const products: Product[] = [
       "Dimensiones": "785 x 540 x 565 mm"
     }
   },
-  //6 Generador
+
+//6 Generador
   {
     id: 'HG8500ET',
     title: 'Generador a Gasolina 7000W',
-    description: '',
+    description: "Generador profesional de 7,5 kW con capacidad para alimentar equipos de alta demanda. Su sistema de arranque eléctrico facilita el uso y su regulación de voltaje AVR garantiza una energía estable.",
     image: '/assets/HG8500ETa.jpg',
     category: 'Generadores',
     brand: 'Hyundai',
@@ -854,7 +855,4 @@ export const products: Product[] = [
       "Dimensiones": "705 x 540 x 565 mm"
     }
   },
-
-
-
 ];
