@@ -43,7 +43,13 @@ export default function ProductCarousel({ images, title }: ProductCarouselProps)
   const handleTouchEnd = (e: React.TouchEvent) => {
     if (startXRef.current === null) return;
     const diff = startXRef.current - e.changedTouches[0].clientX;
-    if (Math.abs(diff) > 50) (diff > 0 ? nextImage() : prevImage());
+    if (Math.abs(diff) > 50) {
+      if (diff > 0) {
+        nextImage();
+      } else {
+        prevImage();
+      }
+    }
     startXRef.current = null;
   };
 
@@ -54,7 +60,13 @@ export default function ProductCarousel({ images, title }: ProductCarouselProps)
   const handleMouseUp = (e: React.MouseEvent) => {
     if (startXRef.current === null) return;
     const diff = startXRef.current - e.clientX;
-    if (Math.abs(diff) > 50) (diff > 0 ? nextImage() : prevImage());
+    if (Math.abs(diff) > 50) {
+      if (diff > 0) {
+        nextImage();
+      } else {
+        prevImage();
+      }
+    }
     startXRef.current = null;
   };
 
